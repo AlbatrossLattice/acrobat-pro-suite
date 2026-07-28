@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#1a0606"/>
+<stop offset="0.55" stop-color="#2b0a0a"/>
+<stop offset="1" stop-color="#3d0d0d"/>
+</linearGradient>
+<linearGradient id="pageGrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fdeeee"/>
+<stop offset="1" stop-color="#e8c9c9"/>
+</linearGradient>
+<linearGradient id="redAccent" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#ff3b3b"/>
+<stop offset="1" stop-color="#b40000"/>
+</linearGradient>
+<radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#ff2d2d" stop-opacity="0.35"/>
+<stop offset="1" stop-color="#ff2d2d" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#ff0000"/>
+<stop offset="1" stop-color="#8c0000"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<circle cx="950" cy="150" r="260" fill="url(#glow)"/>
+
+<g opacity="0.08" stroke="#ff5555" stroke-width="1">
+<line x1="0" y1="40" x2="1200" y2="40"/>
+<line x1="0" y1="90" x2="1200" y2="90"/>
+<line x1="0" y1="140" x2="1200" y2="140"/>
+<line x1="0" y1="190" x2="1200" y2="190"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="290" x2="1200" y2="290"/>
+</g>
+
+<!-- stacked document pages -->
+<g>
+<rect x="845" y="70" width="180" height="230" rx="10" fill="#4a0f0f" opacity="0.6" transform="rotate(8 935 185)"/>
+<rect x="820" y="55" width="180" height="230" rx="10" fill="url(#pageGrad)" opacity="0.9" transform="rotate(-4 910 170)"/>
+<rect x="835" y="50" width="180" height="235" rx="10" fill="#fff5f5" stroke="#b40000" stroke-width="2"/>
+
+<!-- page lines -->
+<line x1="855" y1="90" x2="995" y2="90" stroke="#b40000" stroke-width="4" opacity="0.7"/>
+<line x1="855" y1="112" x2="995" y2="112" stroke="#c86a6a" stroke-width="3" opacity="0.6"/>
+<line x1="855" y1="130" x2="975" y2="130" stroke="#c86a6a" stroke-width="3" opacity="0.6"/>
+<line x1="855" y1="148" x2="990" y2="148" stroke="#c86a6a" stroke-width="3" opacity="0.6"/>
+<line x1="855" y1="166" x2="960" y2="166" stroke="#c86a6a" stroke-width="3" opacity="0.6"/>
+
+<!-- signature squiggle -->
+<path d="M855 230 Q875 205 895 230 T935 230 Q950 210 965 232 T995 228" fill="none" stroke="#b40000" stroke-width="4" stroke-linecap="round"/>
+
+<!-- checkmark badge -->
+<circle cx="960" cy="270" r="20" fill="url(#redAccent)"/>
+<path d="M950 270 L958 278 L972 260" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+<!-- export arrow -->
+<g stroke="#ff8080" stroke-width="4" fill="none" opacity="0.85">
+<line x1="1035" y1="170" x2="1090" y2="170"/>
+<polyline points="1075,155 1090,170 1075,185"/>
+</g>
+
+<!-- small floating page corner accents -->
+<path d="M60 300 L100 300 L100 320 Z" fill="url(#stripe)" opacity="0.5"/>
+
+<!-- Adobe-like corner brand mark -->
+<g transform="translate(60,55)">
+<path d="M0 0 L26 0 L26 60 L0 60 Z" fill="none"/>
+<path d="M2 2 L20 2 L20 50 L2 50 Z" fill="url(#redAccent)"/>
+<text x="4" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#fff">A</text>
+</g>
+
+<text x="100" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">
+<tspan x="100" textLength="1000" lengthAdjust="spacingAndGlyphs">Adobe Acrobat Pro Full</tspan>
+<tspan x="100" dy="66" textLength="560" lengthAdjust="spacingAndGlyphs">Version Download</tspan>
+</text>
+
+<text x="102" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="23" fill="#f2c9c9" textLength="760" lengthAdjust="spacingAndGlyphs">
+Reads PDFs, processes edits and signatures, exports files
+</text>
+<text x="102" y="284" font-family="'Segoe UI', Arial, sans-serif" font-size="23" fill="#f2c9c9" textLength="360" lengthAdjust="spacingAndGlyphs">
+— no setup required
+</text>
+
+<rect x="100" y="298" width="70" height="4" fill="url(#redAccent)"/>
+</svg>
